@@ -72,7 +72,7 @@ export const NavBar = () => {
             <li className={Styles.nav_menu_item}>
               <div className={Styles.nav_leguaje}>
                 <BiWorld />
-                <a href="#contact">English</a>
+                <a href="https://portfolio-en-psi.vercel.app/">English</a>
               </div>
             </li>
           </ul>
