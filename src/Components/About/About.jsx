@@ -16,7 +16,7 @@ export const About = () => {
             <img src={Image} alt="" className={Styles.about_image}/>
             <div className={Styles.about_data}>
                 <Info />
-                <p className={Styles.about_description}>I'm from Salta, Argentina. Full Stack developer with orientation in the Front End. I manage PERN and MERN technologies. I like to include UI design in my projects, with experience working in teams such as agile methodologies (SCRUM or XP). </p>
+                <p className={Styles.about_description}>Soy de Salta, Argentina. Desarrollador Full Stack con orientación en el Front End. Manejo tecnologías PERN y MERN. Me gusta incluir el diseño de UI en mis proyectos, con experiencia trabajando en equipos como metodologías ágiles (SCRUM o XP).</p>
                 <div className={Styles.about_button}>
                     <a download="" href={CV} className={Styles.about_button_a}>Download CV <FaRegFilePdf className={Styles.about_button_icon}/></a>
                 </div>
