@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "../../assets/Profile3.jpg";
 import { Info } from './Info';
 import { FaRegFilePdf } from "react-icons/fa";
-import CV from "../../assets/LuisGoytia_En.pdf"
+import CV from "../../assets/CVGoytiaLuis_Es.pdf"
 import Styles from "./About.module.css";
 
 export const About = () => {
