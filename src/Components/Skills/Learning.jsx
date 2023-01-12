@@ -5,7 +5,7 @@ import Styles from "./Skills.module.css";
 export const Learning = () => {
   return (
     <div className={Styles.skills_content}>
-      <h3 className={Styles.skills_title}>: : Learning : :</h3>
+      <h3 className={Styles.skills_title}>: : Aprendiendo : :</h3>
 
       <div className={Styles.skills_box}>
         <div className={Styles.skills_group}>

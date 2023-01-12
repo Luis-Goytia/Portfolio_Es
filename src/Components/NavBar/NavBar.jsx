@@ -8,7 +8,7 @@ import {
   AiOutlineClose,
   AiOutlineAppstore,
 } from "react-icons/ai";
-import { BsBriefcase, BsCircleFill } from "react-icons/bs";
+import { BsCircleFill } from "react-icons/bs";
 import { BiWorld } from "react-icons/bi";
 import Styles from "./NavBar.module.css";
 
@@ -66,13 +66,13 @@ export const NavBar = () => {
               <AiOutlineSend className={Styles.nav_menu_icon} />
               <a href="#contact" className={Styles.nav_menu_link}>
                 {" "}
-                Contact
+                Contacto
               </a>
             </li>
             <li className={Styles.nav_menu_item}>
               <div className={Styles.nav_leguaje}>
                 <BiWorld />
-                <a href="#contact">Spanish</a>
+                <a href="#contact">English</a>
               </div>
             </li>
           </ul>

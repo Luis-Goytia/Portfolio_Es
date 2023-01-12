@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <section className={Styles.about_section} id="about">
         <div className={Styles.about_title_section}>
-            <h2 className={Styles.section_title}>About Me</h2>
+            <h2 className={Styles.section_title}>Acerca de mí</h2>
         </div>
     
         <div className={Styles.about_container}>
@@ -18,7 +18,7 @@ export const About = () => {
                 <Info />
                 <p className={Styles.about_description}>Soy de Salta, Argentina. Desarrollador Full Stack con orientación en el Front End. Manejo tecnologías PERN y MERN. Me gusta incluir el diseño de UI en mis proyectos, con experiencia trabajando en equipos como metodologías ágiles (SCRUM o XP).</p>
                 <div className={Styles.about_button}>
-                    <a download="" href={CV} className={Styles.about_button_a}>Download CV <FaRegFilePdf className={Styles.about_button_icon}/></a>
+                    <a download="" href={CV} className={Styles.about_button_a}>Descargar CV <FaRegFilePdf className={Styles.about_button_icon}/></a>
                 </div>
             </div>
         </div>

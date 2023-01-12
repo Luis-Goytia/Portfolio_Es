@@ -47,13 +47,13 @@ export const Contact = () => {
     
   return (
     <section className={Styles.contact_section} id="contact">
-        <h2 className={Styles.contact_title}>Connect</h2>
-        <h3 className={Styles.contact_subtitle}>It all starts with this step</h3>
+        <h2 className={Styles.contact_title}>Conectemos</h2>
+        <h3 className={Styles.contact_subtitle}>Todo comienza con este paso</h3>
 
         
         <div className={Styles.contact_container_grid}>
             <div className={Styles.contact_content}>
-                <h3 className={Styles.contact_content_title}>: : : If you want to know more about me</h3>
+                <h3 className={Styles.contact_content_title}>: : : Si quieres saber mas de mi</h3>
                 
                 <div className={Styles.contact_info}>
                   <div className={Styles.contact_card}>
@@ -86,7 +86,7 @@ export const Contact = () => {
             
                 <form className={Styles.contact_form} ref={form} onSubmit={sendEmail}>
                   <div className={Styles.contact_form_div}>
-                    <label className={Styles.contact_form_tag}>Name</label>
+                    <label className={Styles.contact_form_tag}>Tu Nombre</label>
                     <input 
                     type="text"
                     name="user_name"
@@ -106,18 +106,18 @@ export const Contact = () => {
                   </div>
 
                   <div className={Styles.contact_form_div}>
-                    <label className={Styles.contact_form_tag}>Proyect</label>
+                    <label className={Styles.contact_form_tag}>Proyecto</label>
                     <textarea
                     name="message"
                     cols="30"
                     rows="10"
-                    placeholder="Share your project or ideas..."  
+                    placeholder="Comparte las ideas del proyecto..."  
                     className={Styles.contact_form_area}>
                     </textarea>
                   </div>
 
                   <button className={Styles.contact_send_button}>
-                    Send <AiOutlineSend className={Styles.contact_send_button_icon}/>
+                    Enviar <AiOutlineSend className={Styles.contact_send_button_icon}/>
                   </button>
                 </form>
             </div>

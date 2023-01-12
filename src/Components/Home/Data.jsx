@@ -9,11 +9,11 @@ export const Data = () => {
         <div className={Styles.home_subtitle}>
             <h3>Full Stack Developer</h3>
         </div>
-        <p className={Styles.home_presentation}>Hi, i am a skilled and experienced web developer with a passion for creating intuitive and visually appealing websites.Come and see my projects...</p>
+        <p className={Styles.home_presentation}>Hola, soy un desarrollador web hábil , experimentado  y apasionado por crear sitios web intuitivos y visualmente atractivos. Ven y mira mis proyectos...</p>
         
         <div  className={Styles.home_button}>
             <a href="#contact" className={Styles.home_button_a}>
-            Write me
+            Escríbeme
                 <AiOutlineSend className={Styles.home_button_icon}/>
             </a>
         </div>

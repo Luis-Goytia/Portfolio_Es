@@ -7,13 +7,13 @@ export const Info = () => {
     <div className={Styles.about_info_grid}>
         <div className={Styles.about_box}>
             <HiOutlineLightBulb className={Styles.about_info_icon} />
-            <h3 className={Styles.about_info_title}>Experience</h3>
-            <span className={Styles.about_info_subtitle}>1 year</span>
+            <h3 className={Styles.about_info_title}>Experiencia</h3>
+            <span className={Styles.about_info_subtitle}>1 año</span>
         </div>
 
         <div className={Styles.about_box}>
             <HiOutlineBriefcase className={Styles.about_info_icon}/>
-            <h3 className={Styles.about_info_title}>Proyects</h3>
+            <h3 className={Styles.about_info_title}>Proyectos</h3>
             <span className={Styles.about_info_subtitle}>[... 4]</span>
         </div>
     </div>

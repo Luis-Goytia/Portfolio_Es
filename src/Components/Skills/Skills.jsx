@@ -9,7 +9,7 @@ export const Skills = () => {
   return (
     <section className={Styles.skills_section} id="skills">
       <h2 className={Styles.skills_title_gral}>Skills</h2>
-      <h3 className={Styles.skills_subtitle_gral}>Technical Skills</h3>
+      <h3 className={Styles.skills_subtitle_gral}>Habilidades Técnicas</h3>
 
       <div className={Styles.skills_container_grid}>
         <Back />

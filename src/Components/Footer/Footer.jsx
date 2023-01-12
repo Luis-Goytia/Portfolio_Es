@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from "./Footer.module.css";
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineLinkedin, AiOutlineTwitter } from "react-icons/ai";
+import { AiOutlineInstagram, AiOutlineLinkedin, AiOutlineTwitter } from "react-icons/ai";
 
 export const Footer = () => {
   return (
@@ -28,7 +28,7 @@ export const Footer = () => {
             <a href="https://www.linkedin.com/in/luis-goytia/" className={Styles.footer_social_icon} target="_blank"><AiOutlineLinkedin /></a>  
               </div>
               <br />
-              <h5>Portfolio Designed and Developed by Luis Fernando Goytia Cabezas</h5>
+              <h5>Portfolio diseñado y desarrollado por Luis Fernando Goytia Cabezas</h5>
           </div>
           
       </footer>
